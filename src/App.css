@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #111111;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: #242424;
+    border-radius: 20px;
+}
+
+
+body {
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, #523c3c, #4e4e2a );
+    background-size: 500% 100%;
+    animation: background 2s infinite alternate;
+}
+
+@keyframes background {
+    0%{
+        background-position-x: 0%;
+    }
+
+    100%{
+        background-position-x: 100%;
+    }
+}

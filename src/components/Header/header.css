@@ -1,0 +1,178 @@
+
+.header {
+    align-self: flex-end;
+    background-color: #2424249f;
+    width: 100%;
+    position: fixed;
+    padding-right: 20px;
+    z-index: 999;
+    @media (max-width: 1100px) {
+        display: none;
+    }
+}
+
+.nav {
+    height: 70px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: end;
+}
+
+.nav-list {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.nav-list a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+#start{
+    display: inline-block;
+    position: relative;
+}
+
+#academic {
+    display: inline-block;
+    position: relative;
+}
+
+#projects {
+    display: inline-block;
+  position: relative;
+}
+
+#about {
+    display: inline-block;
+    position: relative;
+}
+
+#summary {
+    display: inline-block;
+    position: relative;
+}
+
+#skills {
+    display: inline-block;
+    position: relative;
+}
+
+#skills:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#skills:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#start:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#academic:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#projects:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#about:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#start:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#academic:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#projects:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#about:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#contactNav {
+    display: inline-block;
+    position: relative;
+}
+
+#contactNav:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#contactNav:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+
