@@ -12,7 +12,7 @@ function Contact() {
                 <form id="form" action="https://formspree.io/f/xayrkqpl" method="POST">
                     <label>
                         <p className="mensageText">Seu Email:</p>
-                        <input placeholder="Digite seu Email" type="email" name="email" />
+                        <input id="email" placeholder="Digite seu Email" type="email" name="email" />
                     </label>
                     <label>
                         <p className="mensageText">Sua mensagem:</p>

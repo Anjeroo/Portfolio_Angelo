@@ -59,7 +59,7 @@
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
     @media (max-width: 1100px) {
-        width: 100%;
+        width: 94%;
         
     }
 }
@@ -77,6 +77,9 @@
     font-size: 20px;
     padding: 5px;
     font-family: 'Poppins', sans-serif;
+    @media (max-width: 1100px) {
+        width: 94%;
+     }
 }
 
 .function {
