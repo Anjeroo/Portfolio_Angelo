@@ -4,7 +4,7 @@ function Skills() {
   return (
     <div id="skillsDiv">
       <div id="skillTitle">
-        <h1>Habilidades Técnicas</h1>
+        <h1>Habilidades Técnicas </h1>
       </div>
       <div id="skillOrg">
         <div id="languagesDiv">
