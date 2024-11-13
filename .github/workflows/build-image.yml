@@ -40,3 +40,12 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+  update_service:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Send Webhook to Portainer
+        env:
+          PORTAINER_URL: ${{secrets.PORTAINER_URL}}
+        run: |
+          curl -H "Authorization: Bearer ${{secrets.WEBHOOK_TOKEN}}" https://webhooks.modscleo4.dev.br/webhook/${{secrets.WEBHOOK_ID}}/call
