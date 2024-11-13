@@ -24,14 +24,14 @@ function Cabecalho() {
               <a className="icon" id="git" href="https://github.com/Anjeroo" target="_blank"><span
                 className="hiddable_tooltip">GitHub</span><img src="/assets/git.png" /></a>
               <a className="icon" target="_blank" id="paper"
-                href="https://drive.google.com/file/d/176DTzyPhR9ilARRxVBuIqOhQi57TIHZJ/view"><span
+                href="https://drive.google.com/file/d/150Gy7fRs8JTF8IWMMEjI4LBnTs4Sw8QC/view?usp=sharing"><span
                   className="hiddable_tooltip">Currículo</span><img src="/assets/page.png" /></a>
             </div>
           </div>
         </div>
       </div>
       <div id="angeloDiv">
-        <img src="/assets/Angelo.jpg" id="angelo" />
+        <img src="/assets/angelo.jpg" id="angelo" />
         <div>
           <h3 id="exp">
             Tenho 19 anos e sou Desenvolvedor

@@ -22,7 +22,7 @@ function About() {
       <div id="experience">
         <h1 className="aboutTitle">Outras experiências</h1>
         <div className="works">
-          <h2 className="workTitle"><img src="/assets/fernandes.jpg" className="workIcon" />Fernandes | Atualmente</h2>
+          <h2 className="workTitle"><img src="/assets/fernandes.jpg" className="workIcon" />Fernandes | Atual</h2>
           <h3 className="function">Repositor de Mercadorias</h3>
         </div>
         <div className="works">
