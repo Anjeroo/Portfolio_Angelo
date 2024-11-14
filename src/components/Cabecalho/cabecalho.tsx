@@ -34,7 +34,7 @@ function Cabecalho() {
         <img src="/assets/angelo.jpg" id="angelo" />
         <div>
           <h3 id="exp">
-            Tenho 19 anos e sou Desenvolvedor
+            Tenho 19 anos e sou um Desenvolvedor
             <br />Front-End frelancer.
           </h3>
         </div>
