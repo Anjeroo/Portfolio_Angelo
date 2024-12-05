@@ -18,15 +18,13 @@ function Projects() {
           </div>
         </div>
         <div className="projectInfo">
-          <a href="https://spotify-clone-sepia-ten.vercel.app/" target="_blank"><img className="projectImg"
-            src="/assets/spotify_Clone.png" /></a>
-          <p className="projectText">Meu projeto mais complexo que visa recriar a interface e funcionalidade do Spotify,
-            feito através da Imersão Alura
+          <a href="https://cripto-rose.vercel.app/" target="_blank"><img className="projectImg"
+            src="/assets/criptoimg.jpeg" /></a>
+          <p className="projectText">Uma página web projetada para exibir informações sobre criptomoedas, utilizando uma API de forma responsiva e dinâmica.
           </p>
           <div className="languageIcon">
             <img src="/assets/react.png" />
-            <img src="/assets/html.png" />
-            <img src="/assets/JavaScrip.png" />
+            <img src="/assets/typeScript.png" />
             <img src="/assets/CSS3.png" />
           </div>
         </div>
