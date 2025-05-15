@@ -11,7 +11,7 @@ function About() {
           chance de mostrar minha dedicaçao e empenho, e quem realmente eu sou e o que posso proporcionar
           a
           um ambiente de trabalho. <br /><br />
-
+  
           E meu maior objetivo profissional atualmente é poder atuar como estágio em alguma empresa como
           um
           desenvolvedor Front-End, podendo explorar todo o meu<br /> potencial e poder ver meu esforço dando
@@ -22,24 +22,37 @@ function About() {
       <div id="experience">
         <h1 className="aboutTitle">Outras experiências</h1>
         <div className="works">
-          <h2 className="workTitle"><img src="/assets/fernandes.jpg" className="workIcon" />Fernandes | Atual</h2>
+          <h2 className="workTitle">
+            <img src={`${import.meta.env.BASE_URL}assets/fernandes.jpg`} className="workIcon" alt="Fernandes logo" />
+            Fernandes | Atual
+          </h2>
           <h3 className="function">Repositor de Mercadorias</h3>
         </div>
         <div className="works">
-          <h2 className="workTitle"><img src="/assets/confianca.png" className="workIcon" />Confiança | 6 meses</h2>
+          <h2 className="workTitle">
+            <img src={`${import.meta.env.BASE_URL}assets/confianca.png`} className="workIcon" alt="Confiança logo" />
+            Confiança | 6 meses
+          </h2>
           <h3 className="function">Operador de Loja</h3>
         </div>
         <div className="works">
-          <h2 className="workTitle"><img src="/assets/concilig.jpg" className="workIcon" />Concilig | 3 meses</h2>
+          <h2 className="workTitle">
+            <img src={`${import.meta.env.BASE_URL}assets/concilig.jpg`} className="workIcon" alt="Concilig logo" />
+            Concilig | 3 meses
+          </h2>
           <h3 className="function">Operador de Telemarketing</h3>
         </div>
         <div className="works">
-          <h2 className="workTitle"><img src="/assets/arteskan.jpeg" className="workIcon" />ArtesKan | 6 meses</h2>
+          <h2 className="workTitle">
+            <img src={`${import.meta.env.BASE_URL}assets/arteskan.jpeg`} className="workIcon" alt="ArtesKan logo" />
+            ArtesKan | 6 meses
+          </h2>
           <h3 className="function">Marcenaria e Acabamentos</h3>
         </div>
       </div>
     </div>
   );
+  
 }
 
 export default About;
