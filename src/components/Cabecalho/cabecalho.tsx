@@ -42,7 +42,7 @@ function Cabecalho() {
                 className="icon"
                 target="_blank"
                 id="paper"
-                href="https://drive.google.com/file/d/150Gy7fRs8JTF8IWMMEjI4LBnTs4Sw8QC/view?usp=sharing"
+                href="https://drive.google.com/file/d/1h_PVSTkDQWf7Qw4J2JBwiaxmHYkqg1ot/view?usp=sharing"
                 rel="noreferrer"
               >
                 <span className="hiddable_tooltip">Currículo</span>
